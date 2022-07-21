@@ -46,8 +46,12 @@
             <suiteXmlFile>${testngFile}</suiteXmlFile>
           </suiteXmlFiles> -->
              <suiteXmlFiles>
-            <suiteXmlFile>testngexl.xml</suiteXmlFile>
+            <suiteXmlFile>XMLFiles/${xmlfiles}</suiteXmlFile>
           </suiteXmlFiles> 
+          <systemPropertyVariables>
+          <executionbrowser>${browser}</executionbrowser>
+          
+          </systemPropertyVariables>
         </configuration>
       </plugin>
    
