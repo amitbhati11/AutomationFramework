@@ -17,7 +17,7 @@ public class Browserfatcory {
 			driver=new ChromeDriver();
 			
 		}else if(Browser.contains("Firefox")) {
-			String gpath="C:\\Users\\Admin_SRV\\eclipse-workspace\\AutomationFramework\\Drivers\\geckodriver.exe";
+			String gpath="C:\\Users\\Admin_SRV\\git\\AutomationFramework\\AutomationFramework\\Drivers\\geckodriver.exe";
 			System.setProperty("webdriver.gecko.driver",gpath);
 			driver=new FirefoxDriver();
 		}else {
